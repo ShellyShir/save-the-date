@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 import FavoritesContext from '../store/favorities-context';
-import DateList from '../components/components/dates/DateList';
+import DateList from '../components/dates/DateList';
 
 function FavoritesDatesPage() {
     const favoritesCtx = useContext(FavoritesContext);

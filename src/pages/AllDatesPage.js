@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import DateList from '../components/components/dates/DateList';
+import DateList from '../components/dates/DateList';
 
 
 function AllDatesPage() {

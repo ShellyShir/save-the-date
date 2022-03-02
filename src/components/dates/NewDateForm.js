@@ -1,5 +1,5 @@
 import { useRef} from 'react'
-import Card from '../ui/Card';
+import Card from '../components/ui/Card';
 import classes from './NewDateForm.module.css';
 
 function NewDateForm(props) {

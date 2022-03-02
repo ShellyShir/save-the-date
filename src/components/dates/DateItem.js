@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import classes from './DateItem.module.css'
 import Card from '../ui/Card'
-import FavoriteContext from '../../../store/favorities-context';
+import FavoriteContext from '../../store/favorities-context';
 
 function DateItem(props) {
     const favoritesCtx = useContext(FavoriteContext);
